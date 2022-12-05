@@ -28,6 +28,20 @@
     padding-left: 30px;
     margin-top: 9px
 }
+
+#tendencias{
+    color: white;
+    font-size: larger;
+    background-color: #FF5500;
+    padding: 0.4em 3em;
+    margin-top: 15px;
+}
+#col-tendencias{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 /* Barra de busqueda */
 #barra-busqueda{
 }
@@ -117,7 +131,7 @@ form:valid a {
     padding: 15px 25px;
     border: unset;
     border-radius: 15px;
-    color: #f55916;
+    color: #FF5500;
     z-index: 1;
     background: black;
     position: relative;
@@ -128,7 +142,7 @@ form:valid a {
     transition: all 250ms;
     overflow: hidden;
     text-align: center;
-    text-decoration: underline #f55916;
+    text-decoration: underline #FF5500;
    }
    
    #iniciosesion::before {
@@ -139,7 +153,7 @@ form:valid a {
     height: 100%;
     width: 0;
     border-radius: 15px;
-    background-color: #f55916;
+    background-color: #FF5500;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
@@ -212,7 +226,7 @@ form:valid a {
     left: 0;
     width: 5px;
     height: 100%;
-    background-color: #f55916;
+    background-color: #FF5500;
     z-index: -1;
     transition: all 0.5s;
    }
@@ -224,3 +238,55 @@ form:valid a {
    .foo:active:before {
     background: #b9b9b9;
    }
+
+
+  /*  Nav */
+#catalogo{
+    display: flex;
+    background-color: #4B4B4B;
+}
+
+
+.navegador {    
+    padding: 0.8em 1.8em;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+    border: 0.2px solid; 
+    border-color: #4B4B4B;
+    margin-left: 4.4%;
+    margin-right: 4.4%;
+    text-align: center;
+    text-decoration: underline white;
+    font-weight: bold;
+   }
+   
+   .navegador::before {
+    content: '';
+    width: 0;
+    height: 450%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #FF5500;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .navegador:hover::before {
+    width: 105%;
+   }
+   
+   .navegador:hover {
+    color: white;
+   }
+   
