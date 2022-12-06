@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pagina-Productos</title>
+</head>
+
+<body>
+    <main class="container" id="contenedor">
+        <header>
+            <div class="row">
+                <div id="logo" class="col-sm-12 col-md-12 col-lg-4">
+                    <a href="index.html"><img src="img/Duckgames-logo.png" alt="Duckgames-logo"></a>
+                </div>
+                <div id="barra-busqueda" class="col-sm-12 col-md-12 col-lg-4">
+                    <form action="">
+                        <input type="search" required>
+                        <i class="fa fa-search"></i>
+                        <a href="javascript:void(0)" id="clear-btn">Clear</a>
+                    </form>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4" id="inicio">
+                    <button type="button" class="btn btn-primary btn-floating btn-light btn-lg"><i
+                            class="fas fa-shopping-cart"></i></button>
+                    <button type="button" class="btn btn-primary btn-floating btn-light btn-lg"><i
+                            class="fas fa-user"></i></button>
+                    <button id="iniciosesion">Iniciar Sesión</button>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div id="catalogo" class="col-md-12">
+                <button class="navegador"
+                    style="border: 2px solid; border-color: white; border-radius: 10px;margin-left: 12%;">Catálogo</button>
+                    <button class="navegador"><a href="index.html" style="font-size: small;">Tendencias</a></button>
+                <button class="navegador">Reservas</button>
+                <button class="navegador">Próximos lanzamientos</button>
+                <button class="navegador">Acerca de nosotros</button>
+
+            </div>
+        </div>
+        <div class="row" style="background-color: #272727;">
+            <div class="col-md-12" id="col-tendencias">
+                <h1 id="tendencias">Deathloop</h1>
+            </div>
+        </div>
+        <div class="row" style="background-color: #272727;">
+
+            <div class=" col-md-12 col-lg-6">
+                <img src="img/deathloop.jpg" alt="juego1" style="float: right; padding-right: 200px;margin-top: 30px;">
+            </div>
+
+            <div class="col-md-12 col-lg-6" style="background-color: #272727; float: left; padding-left: 200px;">
+
+                <div class="info"
+                    style="background-color: #4B4B4B; padding: 10px;min-height: 218px; border-radius:15px;margin-top: 30px;min-width: 500px">
+                    <center>
+                        <div class="info-titulo">
+                            <h3 style="color: white; font-size: medium; padding: 10px;margin-top: 10px;">Deathloop</h3>
+                        </div>
+                        <h3 style="color: white; padding-top: 5px; margin-top: 20px; margin-bottom: 0px;">S/ 159.00</h3>
+                        <h1 id="comprar-ahora">Comprar ahora</h1>
+                    </center>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="col-tendencias" style="background-color: #272727;">
+                <h1 id="titulo-gris" style="min-width: 30%;margin-top: 50px;">ACERCA DEL JUEGO</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="background-color: #272727;">
+                <h3 style="color: white; font-size: small;margin-left: 25%;margin-right: 25%;margin-top: 20px;">DEATHLOOP es un shooter en primera persona de nueva generación desarrollado por Arkane Lyon, el galardonado estudio creador de Dishonored. Dos asesinos rivales se ven atrapados en un bucle temporal en la misteriosa isla de Blackreef, condenados a repetir una y otra vez el mismo día. Para escapar, la única esperanza de Colt es acabar con ocho objetivos clave antes de que el día se reinicie. Aprende con cada ciclo, prueba nuevas rutas, consigue información y obtén más armas y habilidades. Lo que sea con tal de romper el bucle.</h3>
+
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-12" style="background-color: #272727;">
+                <center><img src="img/deathinfo.jpg" alt="d" style="margin-top: 15px;"></center>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="col-tendencias" style="background-color: #272727;">
+                <h1 id="titulo-gris" style="min-width: 30%;margin-top: 50px;">REQUISITOS</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" style="background-color: #272727;"></div>
+            <div class="col-sm-12 col-md-3" style="background-color: #272727;">
+                <center>
+                    <h3 style="color: white; font-size: small;">MÍNIMO:</h3>
+                    <h3 style="color: white; font-size: small;">Requiere un procesador y un sistema operativo de 64 bits
+                    </h3>
+                    <h3 style="color: white; font-size: small;">SO: Windows 10 64-bit</h3>
+                    <h3 style="color: white; font-size: small;">Procesador: Intel Core i5 6600k or AMD Ryzen 5 1600<h3>
+                            <h3 style="color: white; font-size: small;">Memoria: 8 GB de RAM</h3>
+                            <h3 style="color: white; font-size: small;">Gráficos: NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570
+                            </h3>
+                            <h3 style="color: white; font-size: small;">DirectX: Versión 12</h3>
+                            <h3 style="color: white; font-size: small;">Almacenamiento: 100 GB de espacio disponible</h3>
+                </center>
+
+            </div>
+            <div class="col-sm-12 col-md-3" style="background-color: #272727;">
+                <center>
+                    <h3 style="color: white; font-size: small;">RECOMENDADO:</h3>
+                    <h3 style="color: white; font-size: small;">Requiere un procesador y un sistema
+                        operativo de 64 bits</h3>
+                    <h3 style="color: white; font-size: small;">SO: Windows 10 64-bit</h3>
+                    <h3 style="color: white; font-size: small;">Procesador: Intel Core i7 6700 or AMD Ryzen 7 2700X<h3>
+                            <h3 style="color: white; font-size: small;">Memoria: 12 GB de RAM</h3>
+                            <h3 style="color: white; font-size: small;">Gráficos: NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT</h3>
+                            <h3 style="color: white; font-size: small;">DirectX: Versión 12</h3>
+                            <h3 style="color: white; font-size: small;">Almacenamiento: 100 GB de espacio disponible</h3>
+                </center>
+            </div>
+            <div class="col-md-3" style="background-color: #272727;"></div>
+        </div>
+        <footer>
+            <div class="row" style="background-color: black">
+                <div class="col-md-12">
+                    <br>
+                    <h1 id="acerca">Acerca de nosotros</h1>
+                </div>
+            </div>
+            <div class="row" style="background-color: black;">
+                <div class="col-md-3 redes">
+                    <h1 class="pie" style="font-size: large; color: white; margin-left: 100px;">Redes:</h1>
+                    <i class="fab fa-facebook-f icon1"></i>
+                    <i class="fab fa-twitter icon2"></i>
+                    <i class="fab fa-instagram icon3"></i>
+                    <i class="fab fa-youtube icon4"></i>
+                </div>
+                <div class="col-md-9">
+                    <button class="foo"> Preguntas frecuentes </button>
+                    <button class="foo"> Politicas </button>
+                    <button class="foo"> Términos y condiciones </button>
+                    <button class="foo"> Privacidad </button>
+                    <button class="foo"> Contactos </button>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
